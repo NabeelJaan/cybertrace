@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const CTA = () => {
     return(
-        <section className="bg-gold py-28">
+        <section className="bg-gradient-to-r from-gold to-black py-28">
             <div className="max-w-1140px mx-auto">
                 <div className="cta-inner flex justify-between items-center">
                     <div className="">

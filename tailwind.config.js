@@ -20,6 +20,11 @@ module.exports = {
         'golden'  : '#b8894b',
         'gold'    : '#BA8C49'
       },
+      
+      gradientColorStops: {
+        'golden'  : '#b8894b',
+        'gold'    : '#BA8C49'
+      },
 
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif'],
