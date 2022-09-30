@@ -76,9 +76,6 @@ const Footer = () => {
 
             </div>    {/* Container End*/}
 
-            <div className="bg-gold text-base font-medium font-roboto text-white tracking-wide py-2 text-center mt-14"> {/*copy right text */}
-                <p>Copyright Cybertrace 2022. All rights reserved.</p>
-            </div>
         </div>
     )
 }

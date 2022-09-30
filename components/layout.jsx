@@ -3,10 +3,13 @@ import Footer from "./Footer";
 import Header from "./Header";
 import Head from "next/head";
 import Slider from "./Slider";
+import CTA from "./cta";
+import ContactInfo from "./stickey-contact";
+import CopyRight from "./copyRight";
 
 const Layout = ({ children, title }) => {
     return(
-        <div>
+        <>
             <Head>
                 <title>{title}</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -28,9 +31,11 @@ const Layout = ({ children, title }) => {
             <main>
                 {children}
             </main>
-            
+            <CTA />
             <Footer />
-        </div>
+            <CopyRight />
+            <ContactInfo />
+        </>
     )
 }
 
