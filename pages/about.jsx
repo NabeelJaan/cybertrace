@@ -50,6 +50,9 @@ export default function About () {
             {/* our Representatives */}
             <section>
                 <div className="max-w-1140px mx-auto">
+
+                    <h2 className="text-7xl text-center font-roboto font-bold">Our Representatives</h2>
+
                     <div class="main-wrapper md:flex">
 
                         <div class="column1">
