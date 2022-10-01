@@ -1,17 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { useRouter } from "next/router";
 
 const Header = () => {
-
-    const router = useRouter;
-    function isActive(route){
-        if(route == router.pathname){
-            return "active"
-        }
-        else ""
-    }
 
     return(
         <div className="header-wrapper bg-black py-5">
@@ -23,10 +14,10 @@ const Header = () => {
                 </div>
                 <div>
                     <ul className="flex items-center">
-                        <li className={isActive('/')}>
+                        <li>
                             <Link href="/"><a className="text-white text-base font-medium font-roboto mr-8">Home</a></Link>
                         </li>
-                        <li className={isActive('/about')}>
+                        <li>
                             <Link href="/about"><a className="text-white text-base font-medium font-roboto mr-8">About</a></Link>
                         </li>
                         <li>
@@ -38,7 +29,7 @@ const Header = () => {
                         <li>
                             <Link href="#"><a className="text-white text-base font-medium font-roboto mr-8">Database</a></Link>
                         </li>
-                        <li className={isActive('/contact')}>
+                        <li>
                             <Link href="/contact"><a className="text-white text-base font-medium font-roboto">Contact</a></Link>
                         </li>
                     </ul>
