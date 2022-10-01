@@ -18,19 +18,15 @@ const Layout = ({ children, title }) => {
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
                 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
                 {/* Font awesome */}
-                <script src="https://kit.fontawesome.com/458a9ea0d5.js" crossorigin="anonymous"></script>
+                <script src="https://kit.fontawesome.com/458a9ea0d5.js"></script>
             </Head>
 
-            {/* Header */}
             <Header />
-
-
-            {/* Owl carousel */}
-            <Slider />
 
             <main>
                 {children}
             </main>
+
             <CTA />
             <Footer />
             <CopyRight />

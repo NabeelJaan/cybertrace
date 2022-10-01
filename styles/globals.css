@@ -24,3 +24,7 @@
     left: 0;
     top: 11px;
 }
+.genHero {
+    position: relative;
+    clip-path: polygon(0% -66%, 266% 57%, 50% 100%, 0% 90%);
+}

@@ -1,13 +1,13 @@
 import Head from "next/head";
 import Layout from "../components/layout";
+import Slider from "../components/Slider";
 
 export default function Home() {
   return (
     <>
         <Layout title="Home Page">
-          <div className="max-w-1140px mx-auto">
-            
-          </div>
+          <Slider />
+
         </Layout>
     </>
   )
