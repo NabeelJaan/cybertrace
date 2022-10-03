@@ -28,3 +28,9 @@
     position: relative;
     clip-path: polygon(0% -66%, 266% 57%, 50% 100%, 0% 90%);
 }
+
+
+.partnerSlider .owl-stage {
+    display: flex;
+    align-items: center;
+}

@@ -17,10 +17,11 @@ const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
 export default function Slider() {
   return (
     <div className="bg-black">
+        <h2 className="text-4xl text-white font-roboto font-semibold uppercase text-center mb-12">what<span className="text-golden">our clients say</span></h2>
     <div className="max-w-1140px mx-auto pt-52 pb-28 -mt-118px">
       <OwlCarousel
         loop={true}
-        items={1}
+        items={3}
         responsiveRefreshRate={0}
         autoplay={true}
         autoplayTimeout={7000}
@@ -34,13 +35,7 @@ export default function Slider() {
         margin={20}
       >
         <div className="item text-center">
-          <h1 className="text-52px leading-50px font-bold font-roboto text-golden">CYBER INVESTIGATION SERVICES</h1>
-          <p className="text-23px text-white font-normal font-roboto my-10">We are a private investigations company providing cyber-investigation services to a global clientele.
-            We specialise in cyber-fraud (scam) investigation and cryptocurrency tracing.
-            With our head office in Australia, we provide our services to clients from all countries</p>
-            <Link href="#">
-              <a className="text-base font-roboto font-medium uppercase bg-gold text-white px-6 py-3 inline-flex items-center justify-center rounded-lg">schudule a free call</a>
-            </Link>
+          <h1 className="text-52px leading-50px font-bold font-roboto text-golden">Review Slider</h1>
         </div>
       </OwlCarousel>
     </div>

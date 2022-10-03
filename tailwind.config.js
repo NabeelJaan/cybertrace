@@ -12,8 +12,11 @@ module.exports = {
     extend: {
 
       textColor: {
-        'golden'   : '#b8894b',
-        'gold'     : '#BA8C49'
+        'golden'   : '#a0820c',
+        'gold'     : '#deb12b',
+        'darkGray' : '#3B3B3B',
+        'darkBlue' : '#4774C2',
+        'lightGray' : '#9A9A9A'
       },
       
       backgroundColor: {
@@ -62,7 +65,8 @@ module.exports = {
 
       maxWidth: {
         '1140px' : '1140px',
-        '750px' : '750px'
+        '750px' : '750px',
+        '353px' : '353px'
       },
 
       margin: {
@@ -73,7 +77,9 @@ module.exports = {
       padding: {
         '138px' : '138px',
         '100px' : '100px',
-        '50px' : '50px'
+        '85px' : '85px',
+        '50px' : '50px',
+        '25px' : '25px'
       },
 
       spacing: {
