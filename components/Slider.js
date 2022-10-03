@@ -27,8 +27,8 @@ export default function Slider() {
         autoplayHoverPause={true}
         nav={true}
         navText={[
-          "<i class='icon-arrow-prev'></i>",
-          "<i class='icon-arrow-next'></i>"
+          "<i className='icon-arrow-prev'></i>",
+          "<i className='icon-arrow-next'></i>"
         ]}
         dots={false}
         margin={20}
