@@ -2,6 +2,7 @@ import Link from "next/link";
 import Layout from "../components/layout";
 import Slider from "../components/Slider";
 import ReviewSlider from "../components/ReviewSlider";
+import WhyChoose from "../components/WhyChoose";
 import OurPartners from "../components/OurPartners";
 import Image from "next/image";
 
@@ -193,7 +194,7 @@ export default function Home() {
 
 
           <ReviewSlider />
-
+          <WhyChoose />
           <OurPartners />
 
         </Layout>
