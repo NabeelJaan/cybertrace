@@ -56,7 +56,7 @@ module.exports = {
         '32px'  : '32px',
         '31px'  : '31px',
         '26px'  : '26px',
-        '23px'  : '23px',
+        '22px'  : '22px',
         '19px'  : '19px',
         '17px'  : '17px',
         '15px'  : '15px',
@@ -66,6 +66,7 @@ module.exports = {
       maxWidth: {
         '1140px' : '1140px',
         '750px' : '750px',
+        '430px' : '430px',
         '353px' : '353px'
       },
 
