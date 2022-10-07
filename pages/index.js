@@ -6,6 +6,7 @@ import Process4 from "../components/Process4";
 import WhyChoose from "../components/WhyChoose";
 import OurPartners from "../components/OurPartners";
 import Image from "next/image";
+import ServicesWeOffer from './../components/ServicesWeOffer';
 
 export default function Home() {
   return (
@@ -196,6 +197,7 @@ export default function Home() {
 
           <ReviewSlider />
           <Process4 />
+          <ServicesWeOffer />
           <WhyChoose />
           <OurPartners />
 
