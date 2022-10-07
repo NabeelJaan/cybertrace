@@ -29,7 +29,7 @@ const Layout = ({ children, title }) => {
             <CTA />
             <Footer />
             <CopyRight />
-            <ContactInfo />
+            {/* <ContactInfo /> */}
         </>
     )
 }

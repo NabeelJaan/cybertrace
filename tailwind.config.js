@@ -70,7 +70,10 @@ module.exports = {
         '430px' : '430px',
         '353px' : '353px'
       },
-
+      minHeight: {
+        '1/2': '50%',
+      },
+      
       margin: {
         '118px' : '118px',
         '38px' : '38px',
