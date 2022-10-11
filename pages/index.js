@@ -7,6 +7,7 @@ import WhyChoose from "../components/WhyChoose";
 import OurPartners from "../components/OurPartners";
 import Image from "next/image";
 import ServicesWeOffer from './../components/ServicesWeOffer';
+import WhoWeAre from './../components/WhoWeAre';
 
 export default function Home() {
   return (
@@ -197,6 +198,7 @@ export default function Home() {
 
           <ReviewSlider />
           <Process4 />
+          <WhoWeAre />
           <ServicesWeOffer />
           <WhyChoose />
           <OurPartners />

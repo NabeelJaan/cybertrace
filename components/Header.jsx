@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu } from '@headlessui/react'
 
 function Header() {
   return (
@@ -16,34 +15,19 @@ function Header() {
                 </div>
 
                 <div>
+                    <Link href="/">
+                        <a className="text-white text-base font-roboto mr-8">Home</a>
+                    </Link>
 
-                    <Menu>
-                        <Menu.Button className="text-white text-base font-medium font-roboto mr-8">About</Menu.Button>
-                            <Menu.Items className="bg-gold">
-
-                                
-                                <Menu.Item className="text-white text-base font-medium font-roboto">
-                                {({ active }) => (
-                                    <a className={`${active && ''}`} href="#">Accreditation</a>
-                                )}
-                                </Menu.Item>
-                                <Menu.Item className="text-white text-base font-medium font-roboto">
-                                {({ active }) => (
-                                    <a className={`${active && ''}`} href="#">Careers</a>
-                                )}
-                                </Menu.Item>
-                                <Menu.Item className="text-white text-base font-medium font-roboto">
-                                {({ active }) => (
-                                    <a className={`${active && ''}`} href="#">privacy policy</a>
-                                )}
-                                </Menu.Item>
-                                <Menu.Item className="text-white text-base font-medium font-roboto">
-                                {({ active }) => (
-                                    <a className={`${active && ''}`} href="#">disclaimer</a>
-                                )}
-                                </Menu.Item>
-                            </Menu.Items>
-                    </Menu>
+                    <Link href="/about">
+                        <a className="text-white text-base font-roboto mr-8">About</a>
+                    </Link>
+                    <Link href="/">
+                        <a className="text-white text-base font-roboto mr-8">Blog</a>
+                    </Link>
+                    <Link href="/">
+                        <a className="text-white text-base font-roboto">Contact</a>
+                    </Link>
                 </div>
             </nav>
         </div>

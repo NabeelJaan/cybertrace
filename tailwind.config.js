@@ -12,7 +12,7 @@ module.exports = {
     extend: {
 
       textColor: {
-        'golden'   : '#a0820c',
+        'golden'   : '#b8894b',
         'gold'     : '#deb12b',
         'darkGray' : '#3B3B3B',
         'darkBlue' : '#4774C2',
