@@ -10,11 +10,11 @@ const Footer = () => {
             <div className="max-w-1140px mx-auto"> {/* Container */}
 
                 <div className="footer-inner text-white md:flex md:gap-45px">
-                    <div className="md:w-2/6 text-center">
+                    <div className="md:w-2/6">
                         <Link href="#">
                             <Image src="/images/footer-logo-cybertrace.webp" width="299" height="110" />
                         </Link>
-                        <p className="font-roboto text-golden text-center mb-11 mt-7">Cybertrace offers intelligence-based investigation products to 
+                        <p className="font-roboto text-golden mb-11 mt-7">Cybertrace offers intelligence-based investigation products to 
                         commercial private clientele. All products are tailor-made,
                         highly confidential and comprehensive. We guarantee the highest
                         level product and service.</p>
@@ -35,20 +35,20 @@ const Footer = () => {
                         <p className="divider-left text-base relative font-roboto text-golden pl-4 mb-2 ">Wilhelmina van Pruisenweg 104, 2595 AN Den Haag</p>
                         <div>
                             <a href="mailto:contact@cybertrace.com.au">
-                                <span className="mr-2 text-gold"><i class="fa-solid fa-envelope"></i></span>
-                                <span className="text-base font-normal font-roboto text-golden">Email: contact@cybertrace.com.au</span>
+                                <span className="mr-2 text-golden"><i class="fa-solid fa-envelope"></i></span>
+                                <span className="text-golden text-base font-normal font-roenen">Email: contact@cybertrace.com.au</span>
                             </a>
                         </div>
 
                         <div>
                             <a href="tel:1300 669 711">
-                                <span className="mr-2 text-gold"><i class="fa-solid fa-phone"></i></span>
+                                <span className="mr-2 text-golden"><i class="fa-solid fa-phone"></i></span>
                                 <span className="text-base font-normal font-roboto text-golden">Australia: 1300 669 711</span>
                             </a>
                         </div>
                         <div>
                             <a href="tel:61 2 9188 7896">
-                                <span className="mr-2 text-gold"><i class="fa-solid fa-phone"></i></span>
+                                <span className="mr-2 text-golden"><i class="fa-solid fa-phone"></i></span>
                                 <span className="text-base font-normal font-roboto text-golden">International +61 2 9188 7896</span>
                             </a>
                         </div>
@@ -60,16 +60,16 @@ const Footer = () => {
                             the Asia Pacific whilst maintaining client trust, compassion and discretion</p>
                         <h4 className="divider relative text-xl leading-5 uppercase font-semibold font-roboto mb-38px mt-11">Social Link</h4>
                         <div className="icon-wrapper flex gap-4 mt-14 justify-center md:justify-start">
-                            <a href="#" className="bg-gold px-2 w-9 h-9 inline-flex items-center justify-center">
+                            <a href="#" className="bg-gold rounded-full px-2 w-9 h-9 inline-flex items-center justify-center">
                                 <i class="fab fa-facebook"></i>
                             </a>
-                            <a href="#" className="bg-gold px-2 w-9 h-9 inline-flex items-center justify-center">
+                            <a href="#" className="bg-gold rounded-full px-2 w-9 h-9 inline-flex items-center justify-center">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                            <a href="#" className="bg-gold px-2 w-9 h-9 inline-flex items-center justify-center">
+                            <a href="#" className="bg-gold rounded-full px-2 w-9 h-9 inline-flex items-center justify-center">
                                 <i class="fab fa-instagram"></i>
                             </a>
-                            <a href="#" className="bg-gold px-2 w-9 h-9 inline-flex items-center justify-center">
+                            <a href="#" className="bg-gold rounded-full px-2 w-9 h-9 inline-flex items-center justify-center">
                                 <i class="fab fa-linkedin"></i>
                             </a>
                         </div>

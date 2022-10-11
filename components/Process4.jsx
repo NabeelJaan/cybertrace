@@ -1,14 +1,13 @@
 import React from "react";
-import Link from "next/link";
 
 
 const Process4 = () => {
     return(
-        <section className="py-85px px-15px xl:px-0">
+        <section className="bg-black py-85px px-15px xl:px-0">
             <div className="max-w-1140px mx-auto">
 
                 <div className="text-center">
-                    <h2 className="text-4xl text-black font-roboto font-semibold uppercase">
+                    <h2 className="text-4xl text-white font-roboto font-semibold uppercase">
                         <span className="text-golden">Our</span> Processes
                     </h2>
                 </div>

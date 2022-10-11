@@ -16,9 +16,9 @@ const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
 
 export default function Slider() {
   return (
-    <div className="bg-black px-5 xl:px-0">
-        <h2 className="text-4xl text-white font-roboto font-semibold uppercase text-center mb-12">what<span className="text-golden">our clients say</span></h2>
-    <div className="max-w-1140px mx-auto pt-52 pb-28 -mt-118px">
+    <div className="px-5 py-85px xl:px-0">
+        <h2 className="text-4xl text-black font-roboto font-semibold uppercase text-center mb-12">what<span className="text-golden"> our clients say</span></h2>
+    <div className="max-w-1140px mx-auto">
       <OwlCarousel
         loop={true}
         items={3}
