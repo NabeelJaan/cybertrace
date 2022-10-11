@@ -84,9 +84,12 @@ module.exports = {
         '100px' : '100px',
         '85px' : '85px',
         '50px' : '50px',
-        '25px' : '25px'
+        '25px' : '25px',
+        '15px' : '15px'
       },
-
+      colors: {
+        'golden': '#b8894b',
+      },
       spacing: {
         '45px': '45px'
       }

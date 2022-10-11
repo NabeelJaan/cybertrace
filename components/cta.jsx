@@ -4,19 +4,20 @@ import Image from "next/image";
 
 const CTA = () => {
     return(
-        <section className="bg-gradient-to-r from-gold to-black py-28">
+        <section className="bg-gradient-to-r from-gold to-black py-28 px-5 xl:px-0">
             <div className="max-w-1140px mx-auto">
-                <div className="cta-inner flex justify-between items-center">
+
+                <div className="cta-inner md:flex md:justify-between md:items-center">
                     <div className="">
                         <h2 className="text-3xl text-white font-roboto font-semibold">Contact Us</h2>
                         <p className="text-base text-white font-roboto mt-7 mb-10 max-w-2xl	">Contact our friendly staff at Cybertrace Australia for a confidential assessment of your case.
                             Speak with the experts.</p>
 
                         <div>
-                        <a href="mailto:contact@cybertrace.com.au">
-                            <span className="mr-2 text-white"><i class="fa-solid fa-envelope"></i></span>
-                            <span className="text-base font-normal font-roboto text-white">Email: contact@cybertrace.com.au</span>
-                        </a>
+                            <a href="mailto:contact@cybertrace.com.au">
+                                <span className="mr-2 text-white"><i class="fa-solid fa-envelope"></i></span>
+                                <span className="text-base font-normal font-roboto text-white">Email: contact@cybertrace.com.au</span>
+                            </a>
                         </div>
 
                         <div>
@@ -33,7 +34,7 @@ const CTA = () => {
                         </div>
                     </div>
 
-                    <div className="">
+                    <div className="mt-16 md:mt-0">
                         <Link href="#">
                             <a className="text-golden text-15px font-medium bg-white rounded-full py-3 px-6 capitalize">Contact Form</a>
                         </Link>

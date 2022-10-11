@@ -16,34 +16,34 @@ const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
 
 export default function Slider() {
   return (
-    <div className="bg-black">
-    <div className="max-w-1140px mx-auto pt-52 pb-28 -mt-118px">
-      <OwlCarousel
-        loop={true}
-        items={1}
-        responsiveRefreshRate={0}
-        autoplay={true}
-        autoplayTimeout={7000}
-        autoplayHoverPause={true}
-        nav={true}
-        navText={[
-          "<i className='icon-arrow-prev'></i>",
-          "<i className='icon-arrow-next'></i>"
-        ]}
-        dots={false}
-        margin={20}
-      >
-        <div className="item text-center">
-          <h1 className="text-52px leading-50px font-bold font-roboto text-golden">CYBER INVESTIGATION SERVICES</h1>
-          <p className="text-23px text-white font-normal font-roboto my-10">We are a private investigations company providing cyber-investigation services to a global clientele.
-            We specialise in cyber-fraud (scam) investigation and cryptocurrency tracing.
-            With our head office in Australia, we provide our services to clients from all countries</p>
-            <Link href="#">
-              <a className="text-base font-roboto font-medium uppercase bg-gold text-white px-6 py-3 inline-flex items-center justify-center rounded-lg">schudule a free call</a>
-            </Link>
-        </div>
-      </OwlCarousel>
-    </div>
+    <div className="bg-black px-15px -mt-118px py-36 md:pt-52 md:pb-28 md:px-5">
+      <div className="max-w-1140px mx-auto">
+        <OwlCarousel
+          loop={true}
+          items={1}
+          responsiveRefreshRate={0}
+          autoplay={true}
+          autoplayTimeout={7000}
+          autoplayHoverPause={true}
+          nav={true}
+          navText={[
+            "<i className='icon-arrow-prev'></i>",
+            "<i className='icon-arrow-next'></i>"
+          ]}
+          dots={false}
+          margin={20}
+        >
+          <div className="item text-center">
+            <h1 className="text-4xl leading-50px font-bold font-roboto text-golden lg:text-52px">CYBER INVESTIGATION SERVICES</h1>
+            <p className="text-xl text-white font-normal font-roboto my-10 lg:text-23px lg:leading-10 lg:tracking-wide">We are a private investigations company providing cyber-investigation services to a global clientele.
+              We specialise in cyber-fraud (scam) investigation and cryptocurrency tracing.
+              With our head office in Australia, we provide our services to clients from all countries</p>
+              <Link href="#">
+                <a className="text-base font-roboto font-medium uppercase bg-gold text-white px-6 py-3 inline-flex items-center justify-center rounded-full">schudule a free call</a>
+              </Link>
+          </div>
+        </OwlCarousel>
+      </div>
     </div>
   );
 }

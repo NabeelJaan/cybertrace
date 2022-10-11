@@ -4,16 +4,17 @@ import Link from "next/link";
 
 const WhyChoose = () => {
     return(
-        <section className="py-85px">
+        <section className="py-85px px-15px xl:px-0">
             
             <div className="text-center">
                 <h2 className="text-4xl text-black font-roboto font-semibold uppercase"><span className="text-golden">Why</span> Choose cybertrace</h2>
-                <p className="text-22px text-gold font-roboto font-medium mt-5 mb-16">OUR EXPERIENCE</p>
+                <p className="text-22px text-gold font-roboto font-medium mt-2 mb-8 md:mt-5 md:mb-16">OUR EXPERIENCE</p>
             </div>
 
             <div className="max-w-1140px mx-auto">
-                <div className="wcu-inner flex gap-5 justify-center">
-                    <div className="bg-black text-white px-25px rounded-lg py-10 max-w-430px">
+                <div className="wcu-inner gap-5 justify-center md:flex">
+
+                    <div className="bg-black text-white rounded-lg md:max-w-430px px-4 py-8 mb-5 md:mb-0 md:py-10 md:px-25px">
                         <ul className="cu-list">
                             <li className="mb-2 font-roboto flex">
                                 <div className="pr-4 text-gold"><i class="fa-solid fa-check"></i></div>
@@ -38,7 +39,7 @@ const WhyChoose = () => {
                         </ul>
                     </div>
 
-                    <div className="bg-black text-white px-25px rounded-lg py-10 max-w-430px">
+                    <div className="bg-black text-white rounded-lg md:max-w-430px px-4 py-8 md:py-10 md:px-25px">
                         <ul className="cu-list">
                             <li className="mb-2 font-roboto flex">
                                 <div className="pr-4 text-gold"><i class="fa-solid fa-check"></i></div>

@@ -5,8 +5,9 @@ import Image from "next/image";
 function Header() {
   return (
 
-        <div className="header-wrapper bg-black py-5">
-            <nav className="max-w-1140px mx-auto flex items-center justify-between px-5 xl:px-0">
+    <header>
+        <div className="header-wrapper bg-black py-5 px-5 xl:px-0">
+            <nav className="max-w-1140px mx-auto flex items-center justify-between">
                 
                 <div className="cursor-pointer">
                     <Link href="/">
@@ -14,7 +15,7 @@ function Header() {
                     </Link>
                 </div>
 
-                <div>
+                <div className="hidden lg:block">
                     <Link href="/">
                         <a className="text-white text-base font-roboto mr-8">Home</a>
                     </Link>
@@ -22,15 +23,29 @@ function Header() {
                     <Link href="/about">
                         <a className="text-white text-base font-roboto mr-8">About</a>
                     </Link>
+                    <Link href="/about">
+                        <a className="text-white text-base font-roboto mr-8">Services</a>
+                    </Link>
                     <Link href="/">
-                        <a className="text-white text-base font-roboto mr-8">Blog</a>
+                        <a className="text-white text-base font-roboto mr-8">Blogs & Media</a>
+                    </Link>
+                    <Link href="/">
+                        <a className="text-white text-base font-roboto mr-8">Databases</a>
                     </Link>
                     <Link href="/">
                         <a className="text-white text-base font-roboto">Contact</a>
                     </Link>
                 </div>
+
+                <div class="toggle lg:hidden">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+				</div>
+
             </nav>
         </div>
+    </header>
 
   )
 }

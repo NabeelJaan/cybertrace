@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Process4 = () => {
     return(
-        <section className="py-85px">
+        <section className="py-85px px-15px xl:px-0">
             <div className="max-w-1140px mx-auto">
 
                 <div className="text-center">
@@ -13,7 +13,7 @@ const Process4 = () => {
                     </h2>
                 </div>
 
-                <div className="pb-wrapper grid grid-flow-row grid-cols-2 grid-row-2 gap-5 mt-12">
+                <div className="pb-wrapper grid md:grid-flow-row md:grid-cols-2 md:grid-row-2 gap-5 mt-12">
                     <div className="pro-box bg-golden px-25px py-10 text-center rounded-md">
                         <div className="text-white text-5xl"><i aria-hidden="true" class="fas fa-star"></i></div>
                         <h4 className="text-white text-2xl font-roboto leading-10 font-semibold my-5">Our Ethos</h4>

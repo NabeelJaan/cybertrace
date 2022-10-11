@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const ContactInfo = () => {
     return(
-        <div className="bg-black relative">
+        <div className="bg-black relative px-5 xl:px-0">
             <div className="mx-8 rounded-full py-5 text-center bg-gold fixed bottom-0 left-0 right-0">
                 <span className="mr-2 text-white text-3xl"><i class="fa-solid fa-phone"></i></span>
                 <span className="text-3xl font-normal font-roboto text-white"><a href="tel:+61 2 91887896">1300 669 711 - Australia</a></span>
