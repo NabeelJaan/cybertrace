@@ -13,7 +13,7 @@ const Brochure = () => {
               <p className="text-xl font-roboto font-semibold capitalize my-7 lg:text-3xl">Financial Crime Investigation & Intelligence</p>
               
               <Link href="#">
-                <a className="text-base font-roboto font-medium uppercase bg-gold text-white px-6 py-3 inline-flex items-center justify-center rounded-full">Download Brochure</a>
+                <a className="transition-all text-base font-roboto font-medium uppercase bg-gold text-white px-6 py-3 inline-flex items-center justify-center border border-golden rounded-full hover:bg-transparent hover:border hover:border-golden hover:text-golden">Download Brochure</a>
               </Link>
             </div>
 

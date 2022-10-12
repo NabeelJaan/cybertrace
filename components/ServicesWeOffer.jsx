@@ -9,8 +9,8 @@ const ServicesWeOffer = () => {
         <section className="ServicesWeOffer px-15px xl:px-0">
             <div className="max-w-1140px mx-auto">
                 <div className="items-center bg-black md:flex">
-                    <div className="max-w-[360px]">
-                        <Image src="/images/cyberFraud.webp" width="336" height="412" alt="cyber fraud" />
+                    <div className="text-center md:max-w-[360px]">
+                        <Image className="w-full md:w-[336px]" src="/images/cyberFraud.webp" width="336" height="412" alt="cyber fraud" />
                     </div>
 
                     <div className="max-w-[480px] mx-auto text-center px-2 md:px-4 xl:px-0">
@@ -27,7 +27,7 @@ const ServicesWeOffer = () => {
 
                     <div className="text-center pb-4 md:pr-4 xl:pr-8 xl:pb-0 xl:text-left">
                         <Link href="#">
-                            <a className="text-base font-roboto font-medium uppercase bg-golden text-white px-8 py-3 inline-flex items-center justify-center rounded-full mt-10">Contact us</a>
+                            <a className="text-base font-roboto font-medium uppercase bg-golden text-white px-8 py-3 inline-flex items-center justify-center transition-all mt-10 border border-golden rounded-full hover:bg-transparent hover:border hover:border-golden hover:text-golden">Contact us</a>
                         </Link>
                     </div>
                 </div>

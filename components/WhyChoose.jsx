@@ -67,7 +67,7 @@ const WhyChoose = () => {
 
                 <div className="text-center">
                     <Link href="#">
-                        <a className="text-base font-roboto font-medium uppercase bg-golden text-white px-8 py-3 inline-flex items-center justify-center rounded-full mt-10">Learn more</a>
+                        <a className="text-base font-roboto font-medium uppercase bg-golden text-white px-8 py-3 inline-flex items-center justify-center mt-10 border border-golden rounded-full hover:bg-transparent hover:border hover:border-golden hover:text-golden">Learn more</a>
                     </Link>
                 </div>
             </div>

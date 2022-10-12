@@ -9,8 +9,8 @@ const Footer = () => {
         <div className="footer-wrapper relative bg-black py-14 px-5">
             <div className="max-w-1140px mx-auto"> {/* Container */}
 
-                <div className="footer-inner text-white md:flex md:gap-45px">
-                    <div className="md:w-2/6">
+                <div className="footer-inner text-white md:flex md:gap-6 lg:gap-45px">
+                    <div className="text-center md:text-left md:w-2/6">
                         <Link href="#">
                             <Image src="/images/footer-logo-cybertrace.webp" width="299" height="110" />
                         </Link>
@@ -36,7 +36,7 @@ const Footer = () => {
                         <div>
                             <a href="mailto:contact@cybertrace.com.au">
                                 <span className="mr-2 text-golden"><i class="fa-solid fa-envelope"></i></span>
-                                <span className="text-golden text-base font-normal font-roenen">Email: contact@cybertrace.com.au</span>
+                                <span className="text-golden text-base font-normal font-roenen">contact@cybertrace.com.au</span>
                             </a>
                         </div>
 

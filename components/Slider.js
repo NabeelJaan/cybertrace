@@ -39,7 +39,7 @@ export default function Slider() {
               We specialise in cyber-fraud (scam) investigation and cryptocurrency tracing.
               With our head office in Australia, we provide our services to clients from all countries</p>
               <Link href="#">
-                <a className="text-base font-roboto font-medium uppercase bg-gold text-white px-6 py-3 inline-flex items-center justify-center rounded-full">schudule a free call</a>
+                <a className="transition-all text-base font-roboto font-medium uppercase bg-gold text-white px-6 py-3 inline-flex items-center justify-center border border-golden rounded-full hover:bg-transparent hover:border hover:border-golden">schudule a free call</a>
               </Link>
           </div>
         </OwlCarousel>

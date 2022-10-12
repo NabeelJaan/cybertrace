@@ -8,9 +8,9 @@ const CTA = () => {
             <div className="max-w-1140px mx-auto">
 
                 <div className="cta-inner md:flex md:justify-between md:items-center">
-                    <div className="relative z-10">
+                    <div className="relative z-10 max-w-sm lg:w-full">
                         <h2 className="text-4xl text-white font-roboto font-semibold">Contact Us</h2>
-                        <p className="text-base text-white font-roboto mt-7 mb-10 max-w-2xl	">Contact our friendly staff at Cybertrace Australia for a confidential assessment of your case.
+                        <p className="text-base text-white font-roboto mt-7 mb-10">Contact our friendly staff at Cybertrace Australia for a confidential assessment of your case.
                             Speak with the experts.</p>
 
                         <div>
@@ -36,11 +36,11 @@ const CTA = () => {
 
                     <div className="relative z-10 mt-16 md:mt-0">
                         <Link href="#">
-                            <a className="text-golden text-15px font-medium bg-white rounded-full py-3 px-6 capitalize">Contact Form</a>
+                            <a className="text-golden text-15px leading-0 font-roboto font-medium bg-white rounded-full py-3 px-6 capitalize hover:bg-golden hover:text-white">Contact Form</a>
                         </Link>
                     </div>
 
-                    <div className="absolute right-0">
+                    <div className="absolute right-0 hidden md:block">
                         <Image src="/images/handpointingout.webp" width="700" height="300" alt="" />
                     </div>
                 </div>

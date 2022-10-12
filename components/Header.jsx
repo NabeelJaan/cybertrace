@@ -32,7 +32,7 @@ function Header() {
                     <Link href="/">
                         <a className="text-white text-base font-roboto mr-8">Databases</a>
                     </Link>
-                    <Link href="/">
+                    <Link href="/contact">
                         <a className="text-white text-base font-roboto">Contact</a>
                     </Link>
                 </div>
