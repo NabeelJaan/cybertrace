@@ -18,8 +18,8 @@
     background: var(--golden);
 	border-radius: 10px;
 	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 /* Header Toggle */
@@ -50,10 +50,21 @@
     align-items: center;
 }
 
+.our-rep {
+    transition: all ease-in-out 0.4s;
+}
+.our-rep:hover .dan-description {
+    top: 0 !important;    
+}
+
+
+
+
 /* Media Queries */
 
 
 /* Toggle */
+
 @media (max-width: 1024px) {
     .toggle.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
