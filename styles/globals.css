@@ -51,10 +51,22 @@
 }
 
 .our-rep {
-    transition: all ease-in-out 0.4s;
+    transition: ease-in-out 0.4s;
 }
 .our-rep:hover .dan-description {
     top: 0 !important;    
+}
+/* Privacy Policy = PP */
+
+.pp .pp-inner h3 {
+    margin-bottom: 14px;
+}
+
+.pp .pp-inner p {
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 12px;
 }
 
 
