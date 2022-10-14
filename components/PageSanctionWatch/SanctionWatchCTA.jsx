@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const SanctionWatchCTA = () => {
     return(
-        <section className="py-10">
+        <section className="py-10 mt-10">
 
             <div className="max-w-[800px] mx-auto">
                 <div className="cta-content text-center border border-golden rounded-xl px-25px py-10">
@@ -19,7 +19,7 @@ const SanctionWatchCTA = () => {
 
 
             <div className="disclaimer-btn mt-12">
-                <Link href="#">
+                <Link href="/">
                     <a className="text-xl font-roboto font-medium uppercase text-golden block text-center">disclaimer</a>
                 </Link>
             </div>

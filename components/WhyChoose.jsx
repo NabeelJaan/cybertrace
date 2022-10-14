@@ -16,23 +16,23 @@ const WhyChoose = () => {
 
                     <div className="bg-black text-white rounded-lg md:max-w-430px px-4 py-8 mb-5 md:mb-0 md:py-10 md:px-25px">
                         <ul className="cu-list">
-                            <li className="mb-2 font-roboto flex">
+                            <li className="mb-2 font-nunito flex">
                                 <div className="pr-4 text-gold"><i class="fa-solid fa-check"></i></div>
                                 <div>Cybertrace is a 100% Australian owned and operated intelligence-focused (OSINT) private investigation company. We are innovative and pioneers in the development of custom technology-based private investigation tools to increase our product capability.</div>
                             </li>
-                            <li className="mb-2 font-roboto flex">
+                            <li className="mb-2 font-nunito flex">
                                 <div className="pr-4 text-gold"><i class="fa-solid fa-check"></i></div>
                                 <div>Cybertrace is driven by Founder and Director Dan Halpin who is an undisputed leader in the field of Australian private intelligence and private investigation.</div>
                             </li>
-                            <li className="mb-2 font-roboto flex">
+                            <li className="mb-2 font-nunito flex">
                                 <div className="pr-4 text-gold"><i class="fa-solid fa-check"></i></div>
                                 <div>Cybertrace has been structured with the same level professionalism, integrity and quality that client expect from government and top-tier corporations; whilst maintaining its boutique feel and customer service.</div>
                             </li>
-                            <li className="mb-2 font-roboto flex">
+                            <li className="mb-2 font-nunito flex">
                                 <div className="pr-4 text-gold"><i class="fa-solid fa-check"></i></div>
                                 <div>Cybertrace work closely with clients to determine the most efficient method of investigation based on current intelligence. This in turn saves you money through correct targeting and investigative planning.</div>
                             </li>
-                            <li className="font-roboto flex">
+                            <li className="font-nunito flex">
                                 <div className="pr-4 text-gold"><i class="fa-solid fa-check"></i></div>
                                 <div>Cybertrace understands your needs and guarantee the highest level of confidentiality.</div>
                             </li>
@@ -41,23 +41,23 @@ const WhyChoose = () => {
 
                     <div className="bg-black text-white rounded-lg md:max-w-430px px-4 py-8 md:py-10 md:px-25px">
                         <ul className="cu-list">
-                            <li className="mb-2 font-roboto flex">
+                            <li className="mb-2 font-nunito flex">
                                 <div className="pr-4 text-gold"><i class="fa-solid fa-check"></i></div>
                                 <div>Cybertrace is a 100% Australian owned and operated intelligence-focused (OSINT) private investigation company. We are innovative and pioneers in the development of custom technology-based private investigation tools to increase our product capability.</div>
                             </li>
-                            <li className="mb-2 font-roboto flex">
+                            <li className="mb-2 font-nunito flex">
                                 <div className="pr-4 text-gold"><i class="fa-solid fa-check"></i></div>
                                 <div>Cybertrace is driven by Founder and Director Dan Halpin who is an undisputed leader in the field of Australian private intelligence and private investigation.</div>
                             </li>
-                            <li className="mb-2 font-roboto flex">
+                            <li className="mb-2 font-nunito flex">
                                 <div className="pr-4 text-gold"><i class="fa-solid fa-check"></i></div>
                                 <div>Cybertrace has been structured with the same level professionalism, integrity and quality that client expect from government and top-tier corporations; whilst maintaining its boutique feel and customer service.</div>
                             </li>
-                            <li className="mb-2 font-roboto flex">
+                            <li className="mb-2 font-nunito flex">
                                 <div className="pr-4 text-gold"><i class="fa-solid fa-check"></i></div>
                                 <div>Cybertrace work closely with clients to determine the most efficient method of investigation based on current intelligence. This in turn saves you money through correct targeting and investigative planning.</div>
                             </li>
-                            <li className="font-roboto flex">
+                            <li className="font-nunito flex">
                                 <div className="pr-4 text-gold"><i class="fa-solid fa-check"></i></div>
                                 <div>Cybertrace understands your needs and guarantee the highest level of confidentiality.</div>
                             </li>

@@ -20,15 +20,15 @@ const OurRepresentatives = () => {
                         
                         <div class="ml-8">
                             <h3 className="text-3xl font-semibold text-golden font-roboto mb-2">Dan Halpin</h3>
-                            <h4 class="text-xl font-medium text-white font-roboto">Chief Executive Officer</h4>
+                            <h4 class="text-xl font-medium text-white font-nunito">Chief Executive Officer</h4>
                         </div>
 
                         <div className="dan-description absolute left-0 -top-[498px] bg-golden p-45px rounded-2xl z-30">
-                            <p class="text-white text-base font-roboto">Dan was employed in the investigation & intelligence industries for the past 20 years and holds formal
+                            <p class="text-white text-base font-nunito">Dan was employed in the investigation & intelligence industries for the past 20 years and holds formal
                                 qualifications in policing, investigations, intelligence, security operations and security risk management.
                                 Dan is globally known as a pioneer in the investigation of cryptocurrency fraud.</p>
 
-                            <p class="text-white text-base font-roboto">He was formerly employed by the Australian Security Intelligence Organisation (ASIO),
+                            <p class="text-white text-base font-nunito">He was formerly employed by the Australian Security Intelligence Organisation (ASIO),
                                 New South Wales (NSW) Police Force, Queensland Police Service and the Australian Capital Territory
                                 (ACT) Department of Justice & Community Service. Dan was seconded to the Australian Federal Police
                                 (AFP) and NSW Crime Commission during his employment as a NSW Police, Counter Terrorism Intelligence Officer.
@@ -46,15 +46,15 @@ const OurRepresentatives = () => {
                         
                         <div class="ml-8">
                             <h3 className="text-3xl font-semibold text-golden font-roboto mb-2">Prof. Alana Maurushat</h3>
-                            <h4 class="text-xl font-medium text-white font-roboto">Special Advisor</h4>
+                            <h4 class="text-xl font-medium text-white font-nunito">Special Advisor</h4>
                         </div>
 
                         <div className="dan-description absolute left-0 -top-[498px] bg-golden p-45px rounded-2xl z-30">
-                            <p class="text-white text-base font-roboto">Dan was employed in the investigation & intelligence industries for the past 20 years and holds formal
+                            <p class="text-white text-base font-nunito">Dan was employed in the investigation & intelligence industries for the past 20 years and holds formal
                                 qualifications in policing, investigations, intelligence, security operations and security risk management.
                                 Dan is globally known as a pioneer in the investigation of cryptocurrency fraud.</p>
 
-                            <p class="text-white text-base font-roboto">He was formerly employed by the Australian Security Intelligence Organisation (ASIO),
+                            <p class="text-white text-base font-nunito">He was formerly employed by the Australian Security Intelligence Organisation (ASIO),
                                 New South Wales (NSW) Police Force, Queensland Police Service and the Australian Capital Territory
                                 (ACT) Department of Justice & Community Service. Dan was seconded to the Australian Federal Police
                                 (AFP) and NSW Crime Commission during his employment as a NSW Police, Counter Terrorism Intelligence Officer.

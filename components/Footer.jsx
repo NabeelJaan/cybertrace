@@ -14,7 +14,7 @@ const Footer = () => {
                         <Link href="#">
                             <Image src="/images/footer-logo-cybertrace.webp" width="299" height="110" />
                         </Link>
-                        <p className="font-roboto text-golden mb-11 mt-7">Cybertrace offers intelligence-based investigation products to 
+                        <p className="font-nunito text-golden mb-11 mt-7">Cybertrace offers intelligence-based investigation products to 
                         commercial private clientele. All products are tailor-made,
                         highly confidential and comprehensive. We guarantee the highest
                         level product and service.</p>
@@ -26,14 +26,14 @@ const Footer = () => {
                     <div className="text-center md:text-left mt-10 md:mt-0 md:w-2/6">
                         <h4 className="divider relative text-xl leading-5 uppercase font-semibold font-roboto mb-38px">contact info</h4>
                         <span className="text-base font-semibold font-roboto text-golden">Global Head Office:</span>
-                        <p className="divider-left text-base relative font-roboto text-golden pl-4 mb-2">Pitt Street, Sydney NSW 2000, Australia</p>
+                        <p className="divider-left text-base relative font-nunito text-golden pl-4 mb-2">Pitt Street, Sydney NSW 2000, Australia</p>
                         <span className="text-base font-semibold font-roboto text-golden">Postal Address:</span>
-                        <p className="divider-left text-base relative font-roboto text-golden pl-4 mb-2 ">PO BOX 1350, Cronulla NSW 2230 Australia</p>
+                        <p className="divider-left text-base relative font-nunito text-golden pl-4 mb-2 ">PO BOX 1350, Cronulla NSW 2230 Australia</p>
                         <span className="text-base font-semibold font-roboto text-golden">UK Address:</span>
-                        <p className="divider-left text-base relative font-roboto text-golden pl-4 mb-2 ">Hatton Garden, Holborn, London EC1N 8LE, UK</p>
+                        <p className="divider-left text-base relative font-nunito text-golden pl-4 mb-2 ">Hatton Garden, Holborn, London EC1N 8LE, UK</p>
                         <span className="text-base font-semibold font-roboto text-golden">Europe Address:</span>
-                        <p className="divider-left text-base relative font-roboto text-golden pl-4 mb-2 ">Wilhelmina van Pruisenweg 104, 2595 AN Den Haag</p>
-                        <div>
+                        <p className="divider-left text-base relative font-nunito text-golden pl-4 mb-2 ">Wilhelmina van Pruisenweg 104, 2595 AN Den Haag</p>
+                        {/* <div>
                             <a href="mailto:contact@cybertrace.com.au">
                                 <span className="mr-2 text-golden"><i class="fa-solid fa-envelope"></i></span>
                                 <span className="text-golden text-base font-normal font-roenen">contact@cybertrace.com.au</span>
@@ -51,12 +51,12 @@ const Footer = () => {
                                 <span className="mr-2 text-golden"><i class="fa-solid fa-phone"></i></span>
                                 <span className="text-base font-normal font-roboto text-golden">International +61 2 9188 7896</span>
                             </a>
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className="relative text-center mt-10 md:text-left md:mt-0 md:w-2/6">
                         <h4 className="divider relative text-xl leading-5 uppercase font-semibold font-roboto mb-38px">mission</h4>
-                        <p className="text-base text-golden font-roboto">To provide our clients with professional cyber investigative services across Australia and 
+                        <p className="text-base text-golden font-nunito">To provide our clients with professional cyber investigative services across Australia and 
                             the Asia Pacific whilst maintaining client trust, compassion and discretion</p>
                         <h4 className="divider relative text-xl leading-5 uppercase font-semibold font-roboto mb-38px mt-11">Social Link</h4>
                         <div className="icon-wrapper flex gap-4 mt-14 justify-center md:justify-start">

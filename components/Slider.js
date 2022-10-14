@@ -35,11 +35,11 @@ export default function Slider() {
         >
           <div className="item text-center">
             <h1 className="text-4xl leading-50px font-bold font-roboto text-golden lg:text-52px">CYBER INVESTIGATION SERVICES</h1>
-            <p className="text-xl text-white font-normal font-roboto my-10 lg:text-23px lg:leading-10 lg:tracking-wide">We are a private investigations company providing cyber-investigation services to a global clientele.
+            <p className="text-xl text-white font-normal font-nunito my-10 lg:text-23px lg:leading-10 lg:tracking-wide">We are a private investigations company providing cyber-investigation services to a global clientele.
               We specialise in cyber-fraud (scam) investigation and cryptocurrency tracing.
               With our head office in Australia, we provide our services to clients from all countries</p>
               <Link href="#">
-                <a className="transition-all text-base font-roboto font-medium uppercase bg-gold text-white px-6 py-3 inline-flex items-center justify-center border border-golden rounded-full hover:bg-transparent hover:border hover:border-golden">schudule a free call</a>
+                <a className="transition-all text-base font-nunito font-medium uppercase bg-gold text-white px-6 py-3 inline-flex items-center justify-center border border-golden rounded-full hover:bg-transparent hover:border hover:border-golden">schudule a free call</a>
               </Link>
           </div>
         </OwlCarousel>
