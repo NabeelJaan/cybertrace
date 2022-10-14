@@ -31,7 +31,8 @@ module.exports = {
       },
 
       fontFamily: {
-        'roboto': ['Roboto', 'sans-serif'],
+        'roboto': ['Roboto Slab', 'sans-serif'],
+        'nunito': ['Nunito', 'sans-serif']
       },
 
       lineHeight: {
