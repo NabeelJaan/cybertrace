@@ -8,7 +8,7 @@ const SwHero = () => {
             <div className="max-w-1140px mx-auto">
                 <div className="hero-inner">
                     <div className="hero-content">
-                        <h1 className="text-white text-2xl md:text-[45px] md:leading-[54px] font-bold font-roboto max-w-[560px]">Are you complying with <span>Internationally</span> imposed Sanctions?</h1>
+                        <h1 className="text-white text-2xl md:text-[45px] md:leading-[54px] font-bold font-roboto max-w-[560px] capitalize">Are you complying with <span>Internationally</span> imposed Sanctions?</h1>
                         <p className="text-white text-15px font-nunito max-w-3xl pt-5">Search a name using English characters and we'll let you know if a person is
                         recorded on any international Sanction List. We also identify Politically Exposed
                         Persons (PEP) for use with Anti Money Laundering and Counter Terrorism Financing (AML / CTF) risk assessments.</p>
