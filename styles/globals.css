@@ -50,12 +50,18 @@
     align-items: center;
 }
 
-.our-rep {
+/* About */
+
+.dan-description {
     transition: ease-in-out 0.4s;
+    display: none;
 }
 .our-rep:hover .dan-description {
-    top: 0 !important;    
+    top: 0 !important;
+    display: block;
 }
+
+
 /* Privacy Policy = PP */
 
 .pp .pp-inner h3 {
