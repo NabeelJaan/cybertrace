@@ -17,23 +17,23 @@ function Header() {
 
                 <div className="hidden lg:block">
                     <Link href="/">
-                        <a className="text-white text-base font-roboto mr-8">Home</a>
+                        <a className="text-white text-base font-nunito mr-8">Home</a>
                     </Link>
 
                     <Link href="/about">
-                        <a className="text-white text-base font-roboto mr-8">About</a>
+                        <a className="text-white text-base font-nunito mr-8">About</a>
                     </Link>
                     <Link href="/about">
-                        <a className="text-white text-base font-roboto mr-8">Services</a>
+                        <a className="text-white text-base font-nunito mr-8">Services</a>
                     </Link>
                     <Link href="/">
-                        <a className="text-white text-base font-roboto mr-8">Blogs & Media</a>
+                        <a className="text-white text-base font-nunito mr-8">Blogs & Media</a>
                     </Link>
                     <Link href="/">
-                        <a className="text-white text-base font-roboto mr-8">Databases</a>
+                        <a className="text-white text-base font-nunito mr-8">Databases</a>
                     </Link>
                     <Link href="/contact">
-                        <a className="text-white text-base font-roboto">Contact</a>
+                        <a className="text-white text-base font-nunito">Contact</a>
                     </Link>
                 </div>
 
