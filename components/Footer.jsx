@@ -12,14 +12,14 @@ const Footer = () => {
                 <div className="footer-inner text-white md:flex md:gap-6 lg:gap-45px">
                     <div className="text-center md:text-left md:w-2/6">
                         <Link href="#">
-                            <Image src="/images/footer-logo-cybertrace.webp" width="299" height="110" />
+                            <Image src="/images/footer-logo-cybertrace.webp" width="299" height="110" alt="cybertrace logo"/>
                         </Link>
                         <p className="font-nunito text-golden mb-11 mt-7">Cybertrace offers intelligence-based investigation products to 
                         commercial private clientele. All products are tailor-made,
                         highly confidential and comprehensive. We guarantee the highest
                         level product and service.</p>
                         <Link href="https://www.dmca.com/Protection/Status.aspx?ID=987272a5-3bec-405b-bb3d-5e7aa254d254&refurl=https://staging.cybertrace.com.au/">
-                            <Image src="/images/dcma.webp" width="150" height="75" />
+                            <Image src="/images/dcma.webp" width="150" height="75" alt="dmca"/>
                         </Link>
                     </div>
 

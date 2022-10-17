@@ -1,7 +1,7 @@
 import React from "react";
 import Link from 'next/link';
 
-const SanctionWatchCTA = () => {
+const scamSleuthCTA = () => {
     return(
         <section className="py-10 mt-10 px-15px xl:px-0">
 
@@ -29,4 +29,4 @@ const SanctionWatchCTA = () => {
 }
 
 
-export default SanctionWatchCTA
+export default scamSleuthCTA

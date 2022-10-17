@@ -4,8 +4,8 @@ import React from "react";
 
 const DataTable = () => {
     return(
-        <section>
-            <div className="max-w-1140px mx-auto">
+        <section className="pl-15px md:px-15px xl:pl-0">
+            <div className="max-w-1140px mx-auto overflow-x-auto">
                 <table class="w-full my-3">
                     <thead className="bg-golden">
                         <tr className="text-left">
