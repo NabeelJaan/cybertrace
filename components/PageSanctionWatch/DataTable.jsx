@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 const DataTable = () => {
     return(
         <section className="pl-15px md:px-15px xl:pl-0">
