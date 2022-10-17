@@ -16,16 +16,16 @@ const AboutLicense = () => {
                         Government website by <a href="#">clicking here.</a></p>
                 </div>
                 <div className="license-img mt-12 border-4 border-black max-w-[772px] mx-auto xl:h-[1091px]">
-                    <Image src="/./images/license1.webp" width="773" height="1096" />
+                    <Image src="/./images/license1.webp" width="773" height="1096" alt="license1" />
                 </div>
 
                 <div className="md:flex">
                     <div className="license-img mt-12 border-4 border-black max-w-[435px] mx-auto md:mr-4 xl:mr-0 xl:h-[600px]">
-                        <Image src="/./images/license1.webp" width="435" height="603" />
+                        <Image src="/./images/license1.webp" width="435" height="603" alt="license2" />
                     </div>
 
                     <div className="license-img mt-12 border-4 border-black max-w-[435px] mx-auto xl:h-[600px]">
-                        <Image src="/./images/license1.webp" width="435" height="603" />
+                        <Image src="/./images/license1.webp" width="435" height="603" alt="license3" />
                     </div>
                 </div>
             </div>
