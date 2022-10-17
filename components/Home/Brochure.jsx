@@ -18,7 +18,7 @@ const Brochure = () => {
             </div>
 
             <div className="image-wrapper mt-8 text-center md:text-left xl:mt-0">
-              <Image src="/images/brochure.webp" width="234" height="300" alt="Tick sign" />
+              <Image src="/./images/brochure.webp" width="234" height="300" alt="Tick sign" />
             </div>
 
           </div>
