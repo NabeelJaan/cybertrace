@@ -21,7 +21,7 @@ const ContactForms = () => {
                         </div>
 
                         <div className="text-center">
-                            <Link href="#">
+                            <Link href="/">
                                 <a className="text-base font-nunito font-medium uppercase bg-golden text-white px-8 py-3 inline-flex items-center justify-center transition-all mt-10 border border-golden rounded-full hover:bg-transparent hover:border hover:border-golden hover:text-golden">Submit form</a>
                             </Link>
                         </div>
@@ -36,7 +36,7 @@ const ContactForms = () => {
                         </div>
 
                         <div className="text-center">
-                            <Link href="#">
+                            <Link href="/">
                                 <a className="text-base font-nunito font-medium uppercase bg-golden text-white px-8 py-3 inline-flex items-center justify-center transition-all mt-10 border border-golden rounded-full hover:bg-transparent hover:border hover:border-golden hover:text-golden">Submit form</a>
                             </Link>
                         </div>

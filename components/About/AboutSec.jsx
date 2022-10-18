@@ -10,7 +10,7 @@ const AboutSec = () => {
                     Australia and the Hague, Netherlands operations focus on cyber fraud and due diligence operations</p>
 
                 <div className="text-center">
-                    <Link href="#">
+                    <Link href="/">
                         <a className="inline-block text-white text-15px font-medium bg-darkGold rounded-full py-3 px-10 uppercase mt-20">Contact Us</a>
                     </Link>
                 </div>
